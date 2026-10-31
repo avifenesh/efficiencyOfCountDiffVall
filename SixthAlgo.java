@@ -76,6 +76,10 @@ public class SixthAlgo {
         return root;
     }
     public static int[] sixthGetDiff(int[] A){
+        insertCounter = 0;// reset the counters for a new run
+        compareCounter = 0;
+        placementCounter = 0;
+        result = 0;
         int [] vals = new int[3];
         //construct the tree
         SixthAlgo tree = new SixthAlgo();

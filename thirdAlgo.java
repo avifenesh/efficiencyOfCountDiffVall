@@ -11,6 +11,8 @@ public class thirdAlgo {
     static int placementCounter = 0;// count the placement actions
 
     public static int[] thirdGetDiff(int[] A){
+        compareCounter = 0;// reset the counters for a new run
+        placementCounter = 0;
         int result = 0;
         int[] vals = new int[2];
         quickSort(A,0 ,A.length-1);

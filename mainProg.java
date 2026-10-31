@@ -92,7 +92,7 @@ public class mainProg {
 
             int[] g = A.clone();// we dont want to change the original array, so we use copy
 
-            vals = SixthAlgo.sixthGetDiff(g);
+            vals = CreateRedBlackTree.seventhGetDiff(g);
             algInsert = vals[0];
             algCompare = vals[1];
             algPlace = vals[2];

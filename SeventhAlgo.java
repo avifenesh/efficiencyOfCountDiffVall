@@ -191,6 +191,10 @@ class CreateRedBlackTree
     }
 
     public static int[] seventhGetDiff(int[] A){
+        insertCounter = 1;// reset the counters for a new run, keeping the null node insert
+        placementCounter = 2;// and its two child placements
+        compareCounter = 0;
+        result = 0;
         int [] vals = new int[3];
         //construct the tree
         CreateRedBlackTree tree = new CreateRedBlackTree(Integer.MIN_VALUE);

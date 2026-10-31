@@ -15,6 +15,10 @@ public class FifthAlgo {
     static int compareCounter = 0;// count the placement actions
 
     public static int[] fifthGetDiff(int[] A) {
+        checksCounter = 0;// reset the counters for a new run
+        hashCounter = 0;
+        placementCounter = 0;
+        compareCounter = 0;
         int i;//index for for-loops
         int [] hash_table = new int[2*A.length];//hash-table
         int [] vals = new int[4];
