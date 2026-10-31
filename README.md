@@ -9,5 +9,14 @@ count actions and check the efficiency of 7 different algorithm for counting how
  5. algorithm that use hash-table
  6. algorithm that use binary tree search
  7. algorithm that use red-black tree
+
+## Run
+
+```sh
+javac *.java
+java mainProg
+```
+
+Enter an array size. The program fills an array with random values from 0 to 99 and prints the compares, placements and other actions each algorithm made. Enter 0 to exit.
  
  the well known part of some algorithm was taking from famous sites and edited for use as check diffrent value algorithm, so thanks that was lot longer if i was build everything from scratch.
